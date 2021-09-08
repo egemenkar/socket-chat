@@ -84,11 +84,51 @@ body {
 .chatContainer .messageInputs button {
   flex: 20%;
   height: 100%;
-  background-color:  #0091ff;
+  background-color: #0091ff;
   border: none;
   color: white;
   font-size: 18px;
 }
-  
+
+.messageContainer {
+  display: flex;
+  width: calc(100% -30px);
+}
+
+#You {
+  justify-content: flex-end;
+}
+
+#You .messageText {
+  background-color: #92a77f;
+}
+
+#You .messageAuthor {
+  color:rgb(54, 54, 54);
+}
+
+#Other {
+  justify-content: flex-start;
+}
+
+
+.messageAuthor {
+  color: yellow;
+}
+
+.messageText {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background-color: #0091ff;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
 
 
